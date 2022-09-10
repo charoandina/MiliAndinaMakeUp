@@ -148,6 +148,13 @@ footer {
     margin-right: 1em;
     width: 2em;
     height: 2em;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.icono_ig:hover {
+    margin-top: 2px;
 }
 
 .icono_yt {
@@ -155,6 +162,13 @@ footer {
     margin-right: 1em;
     width: 2.5em;
     height: 1.9em;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.icono_yt:hover {
+    margin-top: 2px;
 }
 
 .icono_wa {
@@ -162,6 +176,13 @@ footer {
     margin-right: 1em;
     width: 2em;
     height: 2em;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.icono_wa:hover{
+    margin-top: 2px;
 }
 
 .derechos {
@@ -259,26 +280,10 @@ footer {
 }
 
 .img_curso:hover {
-    opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
-}
-@-webkit-keyframes flash {
-	0% {
-		opacity: .4;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-@keyframes flash {
-	0% {
-		opacity: .4;
-	}
-	100% {
-		opacity: 1;
-	}
-}
+    filter: blur(5px);
+    transition: 3s; 
+}   /* CÓMO AGREGAR TEXTO DENTRO DEL HOVER? */
+
 
 .titulo__cursos {
     color: #f9f9f9;
