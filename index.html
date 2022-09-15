@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mili Andina Make Up</title>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,52 +18,93 @@
 </head>
 <body>
 
-<div class="contenedor__index">
-
 <header>
-    <div class="navbar">
-        <nav class="nav__ppal">
-            <div>
-            <a href="index.html">
-                <img src="img/logo.svg" alt="Logo" class="logo animate__animated animate__fadeIn">
-            </a>
-            </div>
-            <ul class="nav__ul">
-                <li><a href="html/cursos.html" class="nav__ul--li-a">CURSOS</a></li>
-                <li><a href="html/maquillateconmigo.html" class="nav__ul--li-a">MAQUILLATE CONMIGO</a></li>
-                <li><a href="html/sobremi.html" class="nav__ul--li-a">SOBRE MI</a></li>
-                <li><a href="html/contacto.html" class="nav__ul--li-a">CONTACTO</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand img-fluid" href="index.html"> <img src="img/logo.svg" alt="Logo" class="logo ms-4 animate__animated animate__fadeIn"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end me-3 fs-5 " id="navbarNav">
+        <ul class="navbar-nav ">
+            <li class="nav-item fw-light">
+            <a class="nav-link text-white " aria-current="page" href="html/cursos.html">CURSOS</a>
+            </li>
+            <li class="nav-item ms-4 fw-light">
+            <a class="nav-link text-white" href="html/maquillateconmigo.html">MAQUILLATE CONMIGO</a>
+            </li>
+            <li class="nav-item ms-4 fw-light">
+            <a class="nav-link text-white" href="html/sobremi.html">SOBRE MI</a>
+            </li>
+            <li class="nav-item ms-4 fw-light">
+            <a class="nav-link text-white" href="html/contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+        </div>
     </div>
-</header>
+    </nav>
+    </header>
 
-<div class="foto_index">
+<section>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="img/portada2.jpeg" class="d-block w-100 img-car" alt="portada1">
+        </div>
+        <div class="carousel-item">
+        <img src="img/portada.jpeg" class="d-block w-100 img-car" alt="portada 2">
+        </div>
+        <div class="carousel-item">
+        <img src="img/portada3.jpeg" class="d-block w-100 img-car" alt="portada 3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+</section>
 
-</div> <!-- FOTO PRINCIPAL -->
+<h1 class="main1__h1 animate__fadeInLeft animate__animated text-center">SI SABEMOS COMO, TODAS PODEMOS MAQUILLARNOS</h1>
 
-<div id="main">
-    <h1 class="main1__h1 animate__fadeInLeft animate__animated">SI SABEMOS COMO, TODAS PODEMOS MAQUILLARNOS</h1>
-    <p class="main1__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium itaque natus atque tempore illum quo maiores eius error voluptatum, iste corporis eum sunt voluptatem eveniet adipisci aut aliquid saepe esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatum excepturi sequi reprehenderit ex est nisi sed, inventore aperiam officiis asperiores odit incidunt nulla distinctio accusantium hic quibusdam perferendis ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quae labore harum unde dolores ab aperiam obcaecati nobis, deleniti maxime mollitia sit exercitationem vel voluptates commodi corrupti expedita et error?</p>
+<main class="container-fluid row d-flex justify-content-around align-items-center mt-4 mb-5">
+
+    <div class="texto-main">
+        <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptates. Laudantium iste reprehenderit rerum labore, magni ratione error incidunt unde optio, explicabo doloribus voluptatibus laboriosam animi impedit obcaecati. Obcaecati, in! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ab? Aliquid esse placeat pariatur similique sint numquam odit, nemo delectus fugiat modi quidem voluptatem nostrum aperiam, et, dolor repellat magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore at rem nihil accusantium quos temporibus voluptatum repellat animi corporis praesentium, nobis magni dicta quaerat eum minima aliquid deserunt voluptate inventore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio quo reiciendis illum, provident numquam accusantium facere explicabo qui iure, laborum nisi dignissimos eum vero maxime voluptatum tempore! Vero, beatae possimus.</p>
+    </div>
+
+<div class="card text-white bg-dark mb-3 " style="width: 18rem;">
+    <div class="card-body fw-light">
+        <p class="card-text"><blockquote class="blockquote">Some quick example text to build on the card title and make up the bulk of the card's content.</blockquote></p>
+        <h5 class="card-title text-end">Lucia</h5>
+        <h6 class="card-subtitle mb-2 text-muted text-end">29 años,</h6>
+    </div>
 </div>
 
-<footer id="footer">
+</main>
 
-    <ul class="footer__ul">
-        <li><a href="https://www.instagram.com" target="_blank" class="footer__ul-li">
-        <img src="img/instagram.png" alt="icono instagram" class="icono_ig">    </a></li>
-        <li><a href="https://www.youtube.com" target="_blank" class="footer__ul-li">
-        <img src="img/youtube.png" alt="icono youtube" class="icono_yt"></a></li>
-        <li><a href="https://www.whatsapp.com" target="_blank" class="footer__ul-li">
-        <img src="img/whatsapp.png" alt="icono whatsapp" class="icono_wa"></a></li>
-    </ul>
-
-    <div class="derechos">
-        <p class="derechos_p">Developed and desgined by Charo Andina</p>
-    </div>
-
-</footer>
-
+<div class="container-fluid">
+    <footer class="row justify-content-between align-items-center">
+            <div class="col-4">
+                <a href="https://www.instagram.com" target="_blank"> 
+                    <img src="../img/instagram.png" alt="icono instagram" class="icono_ig">
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="../img/youtube.png" alt="icono youtube" class="icono_yt">
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="../img/whatsapp.png" alt="icono whatsapp" class="icono_wa">
+                </a>
+            </div>
+        
+            <div class="col-8 text-end">
+                <p class="p-footer mt-3 mb-3" >Developed and desgined by Charo Andina</p>
+            </div>
+    </footer>
 </div>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

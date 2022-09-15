@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mili Andina Make Up</title>
+            <!-- CSS only -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,21 +17,33 @@
 </head>
 <body>
 
-<div class="contenedor__maquillate">
-
-<div id="nav_maquillate">
-    <nav class="nav__ppal">
-        <a href="../index.html">
-            <img src="../img/logo.svg" alt="Logo" class="logo animate__animated animate__fadeIn">
-        </a>
-        <ul class="nav__ul">
-            <li><a href="cursos.html" class="nav__ul--li-a">CURSOS</a></li>
-            <li><a href="maquillateconmigo.html" class="nav__ul--li-a">MAQUILLATE CONMIGO</a></li>
-            <li><a href="sobremi.html" class="nav__ul--li-a">SOBRE MI</a></li>
-            <li><a href="contacto.html" class="nav__ul--li-a">CONTACTO</a></li>
+<header>
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand img-fluid" href="../index.html"> <img src="../img/logo.svg" alt="Logo" class="logo ms-4 animate__animated animate__fadeIn"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end me-3 fs-5 " id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item fw-light">
+            <a class="nav-link text-white " aria-current="page" href="cursos.html">CURSOS</a>
+            </li>
+            <li class="nav-item ms-4 fw-light">
+            <a class="nav-link text-white" href="maquillateconmigo.html">MAQUILLATE CONMIGO</a>
+            </li>
+            <li class="nav-item ms-4 fw-light">
+            <a class="nav-link text-white" href="sobremi.html">SOBRE MI</a>
+            </li>
+            <li class="nav-item ms-4 fw-light">
+            <a class="nav-link text-white" href="contacto.html">CONTACTO</a>
+            </li>
         </ul>
+        </div>
+    </div>
     </nav>
-</div>
+</header>
+
 
 <div id="titulo_maquillate">
     <div class="barra"></div>
@@ -37,45 +51,52 @@
     <div class="barra"></div>
 </div>
 
-<div id="foto_maquillate">
-<img src="../img/maquillateconmigo.jpg" alt="Maquillate Conmigo" class="maquillate_img borde_img">
-</div>
+<main class="container">
+    <div class=" d-flex justify-content-start">
+        <div class="maquillate_img col-6 ">
+            <img src="../img/maquillateconmigo.jpg" alt="Maquillate Conmigo" class="rounded"> 
+        </div>
 
-<div class="maquillateinfo" id="texto_maquillate">
-    <h2 class="maquillate_h2">Si tenes un evento para el que quieras que te maquille, estas a un solo paso de lograrlo!</h2>
-    <p class="info_maquillate">Podes escribirme a mi WhatsApp (1167582168) o realizar tu consulta por este medio, agregando la siguiente información en el mensaje:</p>
-    <ul class="ul_maquillate">
-        <li>Si sos novia o invitada al evento</li>
-        <li>Fecha y horario</li>
-        <li>Zona/barrio o si queres que sea en el Estudio</li>
-        <li>Cantidad de personas que desean el servicio</li>
-    </ul>
-    <p class="info_maquillate">Con esa información, yo puedo armar tu presupuesto para enviártelo por mail. </p>
-    <p class="info_maquillate"> Por favor, no te olvides de ningún dato, así te puedo mandar el presupuesto cuanto antes!</p>
-    <div class="boton_maquillate"> <!-- BOTON -->
-        <a href="contacto.html" class="a_boton"><p class="p__botonmaquillate">QUIERO MAS INFO!</p></a>
+        <div class="maquillateinfo col-6">
+            <h2 class="maquillate_h2">Si tenes un evento para el que quieras que te maquille, estas a un solo paso de lograrlo!</h2>
+            <p class="info_maquillate">Podes escribirme a mi WhatsApp (1167582168) o realizar tu consulta por este medio, agregando la siguiente información en el mensaje:</p>
+            <ul class="ul_maquillate">
+                <li>Si sos novia o invitada al evento</li>
+                <li>Fecha y horario</li>
+                <li>Zona/barrio o si queres que sea en el Estudio</li>
+                <li>Cantidad de personas que desean el servicio</li>
+            </ul>
+            <p class="info_maquillate">Con esa información, yo puedo armar tu presupuesto para enviártelo por mail. </p>
+            <p class="info_maquillate"> Por favor, no te olvides de ningún dato, así te puedo mandar el presupuesto cuanto antes!</p>
+            <button type="button" class="btn btn-secondary boton_maquillate">QUIERO MAS INFO!</button>
+        </div>
     </div>
+
+</main>
+
+
+
+
+<div class="container-fluid">
+    <footer class="row justify-content-between align-items-center">
+            <div class="col-4">
+                <a href="https://www.instagram.com" target="_blank"> 
+                    <img src="../img/instagram.png" alt="icono instagram" class="icono_ig">
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="../img/youtube.png" alt="icono youtube" class="icono_yt">
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="../img/whatsapp.png" alt="icono whatsapp" class="icono_wa">
+                </a>
+            </div>
+        
+            <div class="col-8 text-end">
+                <p class="p-footer mt-3 mb-3" >Developed and desgined by Charo Andina</p>
+            </div>
+    </footer>
 </div>
-
-
-<footer id="footer_maquillate">
-
-    <ul class="footer__ul">
-        <li><a href="https://www.instagram.com" target="_blank" class="footer__ul-li">
-        <img src="../img/instagram.png" alt="icono instagram" class="icono_ig">    </a></li>
-        <li><a href="https://www.youtube.com" target="_blank" class="footer__ul-li">
-        <img src="../img/youtube.png" alt="icono youtube" class="icono_yt"></a></li>
-        <li><a href="https://www.whatsapp.com" target="_blank" class="footer__ul-li">
-        <img src="../img/whatsapp.png" alt="icono whatsapp" class="icono_wa"></a></li>
-    </ul>
-    
-    <div class="derechos">
-        <p class="derechos_p">Developed and desgined by Charo Andina</p>
-    </div>
-    
-</footer>
-
-</div>
-
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
