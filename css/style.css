@@ -49,6 +49,21 @@ footer {
 
 /* INDEX */
 
+.ul-li-a::after {
+    content: "";
+    display: block;
+    height: 0.02rem;
+    background-color: #393939;
+    transform: scale(0,1);
+    transform-origin: center;
+    transition: transform .25s;
+    
+}
+
+.ul-li-a:hover::after {
+    transform: scale(1,1);
+}
+
 .main1__h1 {
     color: #f9f9f9;
     font-size: 2em;
@@ -271,7 +286,7 @@ footer {
 }
 
 .img_sobremi1 {
-    height: 31em;
+    height: 30em;
     width: 23.5em;
 
 }
