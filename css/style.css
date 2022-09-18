@@ -42,6 +42,11 @@ body {
     margin-top: 2em;
 }
 
+footer {
+    background-color: #303030;
+    height: 5rem;
+}
+
 /* INDEX */
 
 .main1__h1 {
@@ -65,12 +70,6 @@ body {
     height: auto;
     color: #aaaaaa;
     text-align: justify;
-}
-
-
-footer {
-    background-color: #303030;
-    height: 5rem;
 }
 
 .icono_ig {
@@ -123,15 +122,20 @@ footer {
     font-size: 0.8rem;
 }
 
-/* INDEX RESPONSIVE DESIGN */
+/* INDEX - RESPONSIVE */
 
+@media (max-width: 576px) {
+    footer {
+        height: auto;
+    }
+}
 
 /* CURSOS */
 
 
 .img_curso {
     height: 23rem;
-    width: 19rem;
+    width: 18rem;
 }
 
 .size-curso {
@@ -167,16 +171,12 @@ footer {
     color: #aaaaaa;
 }
 
+/* CURSOS - RESPONSIVE */
+
+
 /* MAQUILLATE CONMIGO */
 
-.maquillate_img {
-    width: 45em;
-    height: 75em;
-}
-
 .maquillateinfo {
-    height: 30em;
-    width: 35rem;
     color: #aaaaaa;
     text-align: justify;
 }
@@ -213,7 +213,7 @@ footer {
     border-radius: 1.5em;
     font-family: 'Quicksand', sans-serif;
     font-size: 1em;
-    margin-left: 10rem;
+    margin-left: 35%;
     margin-top: 1rem;
 }
 
@@ -225,6 +225,36 @@ footer {
 .boton_maquillate:hover {
     background-color: #f9f9f9;
     transition: 1s;
+}
+
+/* MAQUILLATE CONMIGO - RESPONSIVE */
+
+@media (max-width: 576px) { 
+    .maquillate_img {
+        display:none;
+    }
+
+    .boton_maquillate {
+        width: 15rem;
+        height: 3rem;
+        margin-left: 4rem;
+        margin-top: 2.5rem;
+    }
+    
+}
+
+@media (max-width: 990px) { 
+    .maquillate_img {
+        display: none;
+    }
+
+    .boton_maquillate {
+        width: 15rem;
+        height: 3rem;
+        margin-left: 30%;
+        margin-top: 2.5rem;
+    }
+    
 }
 
 /* SOBRE MI */
@@ -269,17 +299,32 @@ footer {
 
 /* SOBRE MI - RESPONSIVE */
 
+@media (max-width: 576px) { 
+    .img_sobremi1 {
+        display: none;
+    }
+
+    .main-sobremi {
+        text-align: center;
+    }
+}
+
+@media (max-width: 990px) { 
+    .img_sobremi1 {
+        display: none;
+    }
+}
 
 /* CONTACTO */
 
 .contenedor__form {
-    display:flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 3rem;
+    width: 100%;
+    height: auto;
 }
 
 .form__label {
+    text-align: center;
     font-size: 1.5rem;
     margin-top: 0.5rem;
 }
@@ -287,7 +332,7 @@ footer {
 .form__input {
     display: block;
     border: #303030 0.03rem solid;
-    width: 50rem;
+    width: 30rem;
     height: 3rem;
     border-radius: 1rem;
     margin-left: 0rem;
@@ -303,7 +348,7 @@ footer {
 }
 
 .form__textarea{
-    width: 55rem;
+    width: 50rem;
     height: 10rem;
     border-radius: 1rem;
     border: #303030 0.03rem solid;
@@ -315,7 +360,6 @@ footer {
 }
 
 .form__boton {
-    display: inline;
     background-color: #303030;
     border: none;
     color: white;
@@ -334,84 +378,42 @@ footer {
     transition: 1s;
 }
 
-.form__boton--2 {
-    margin-left: 39rem;
-}
 
 /* CONTACTO - RESPONSIVE */
 
-@media screen and (max-width: 900px) {
-    .contenedor__formulario {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "nav"
-        "titulo"
-        "formulario"
-        "footer";
-    }
-
-    .form__input {
-        width: 80%;
-        height: 2em;
-        margin-left: 2em;
-        margin-right: auto;
-        margin-top: 0.5em;
-    }
-
+@media (max-width: 576px) { 
     .form__label {
-        margin-left: 2em;
-        margin-right: auto;
-        font-size: 1.4em;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .form__input {
+        width: 20rem;
+        height: 3rem;
+        font-size: 1rem;
+        padding: 0.3rem;
     }
 
     .form__textarea{
-        width: 45rem;
+        width: 5rem;
         height: 5rem;
-        margin-left: 2em;
-        margin-right: auto;
-        margin-top: 0.5em;
     }
 
-    .form__boton {
+    .contenedor__form {
         align-items: center;
-        justify-content: space-evenly;
-        margin: 1em auto;
     }
-
 }
 
-@media screen and (max-width: 550px) { 
-    .contenedor__formulario {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "nav"
-        "titulo"
-        "formulario"
-        "footer";
-    }
-
-    .form__input {
-        width: 25em;
-        height: 2em;
-        margin-left: 1em;
-    }
-
-    .form__label {
-        margin-left: 1em;
-        margin-right: auto;
-        font-size: 1.4em;
-    }
-
+@media (max-width: 768px) { 
     .form__textarea{
-        width: 25rem;
-        height: 5rem;
-        margin-left: 1em;
-        margin-right: auto;
-        margin-top: 0.5em;
+        width: 40rem;
     }
+}
 
+
+@media (max-width: 990px) { 
+    .form__textarea{
+        width: 40rem;
+    }
 }
