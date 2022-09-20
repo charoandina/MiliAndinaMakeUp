@@ -429,6 +429,6 @@ footer {
 
 @media (max-width: 990px) { 
     .form__textarea{
-        width: 40rem;
+        width: 20rem;
     }
 }
