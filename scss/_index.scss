@@ -1,0 +1,34 @@
+/* INDEX */
+
+.main_index {
+    .main1__h1 {
+        color: #f9f9f9;
+        font-size: 2em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-top: 1em;
+    }
+    .texto-main {
+        width: 65%;
+        height: auto;
+        color: #aaaaaa;
+        text-align: justify;
+    }
+}
+
+.carousel_index {
+    .img-car {
+        width: 100%;
+        height: 40rem;
+        object-fit: cover;
+    }    
+}
+
+/* INDEX - RESPONSIVE */
+
+@media (max-width: 576px) {
+    footer {
+        height: auto;
+    }
+}

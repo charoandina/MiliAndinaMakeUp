@@ -1,0 +1,84 @@
+/* MAQUILLATE CONMIGO */
+
+.main_maquillate {
+    .maquillateinfo {
+        color: #aaaaaa;
+        text-align: justify;
+    }
+    
+    .maquillate_h2 {
+        color: #f9f9f9;
+        font-size: 2em;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 1em;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+    
+    .info_maquillate {
+        line-height: 2;
+        font-size: 1em;
+        color: #aaaaaa;
+    }
+    
+    .ul_maquillate {
+        list-style-type: disc;
+        line-height: 2;
+        padding-left: 1.5em;
+        margin: 1em 0 1em 0;
+    }
+    
+    .boton_maquillate {
+        width: 15rem;
+        height: 3rem;
+        background-color: #303030;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 1.5em;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1em;
+        margin-left: 35%;
+        margin-top: 1rem;
+        &:hover {
+            background-color: #f9f9f9;
+            transition: 1s;
+            color: #303030;
+        }
+    }
+    
+    .p__botonmaquillate {
+        text-decoration: none;
+        color:#f9f9f9;
+    }
+}
+
+/* MAQUILLATE CONMIGO - RESPONSIVE */
+
+@media (max-width: 576px) { 
+    .maquillate_img {
+        display:none;
+    }
+
+    .boton_maquillate {
+        width: 15rem;
+        height: 3rem;
+        margin-left: 4rem;
+        margin-top: 2.5rem;
+    }
+    
+}
+
+@media (max-width: 990px) { 
+    .maquillate_img {
+        display: none;
+    }
+
+    .boton_maquillate {
+        width: 15rem;
+        height: 3rem;
+        margin-left: 30%;
+        margin-top: 2.5rem;
+    }
+    
+}

@@ -1,0 +1,55 @@
+/* SOBRE MI */
+
+.mainc-sobremi {
+    margin-top: 2rem;
+    .main-sobremi {
+        width: 53rem;
+        height: auto;
+        text-align: justify;
+        color: #aaaaaa;
+    }
+    
+    .img_sobremi1 {
+        height: 30em;
+        width: 25em;
+    }
+    
+    .info_sobremi1 {
+        margin: 3em 2.5em 2em 2em;
+        text-align: justify;
+        line-height: 2;
+    }
+    
+    .h2_sobremi {
+        color: #f9f9f9;
+        font-size: 2em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 0.5em;
+    }
+    
+    .info_sobremi2 {
+        margin: 0.5em 2em 2em 2.5em;
+        text-align: justify;
+        line-height: 2;
+    }
+}
+
+/* SOBRE MI - RESPONSIVE */
+
+@media (max-width: 576px) { 
+    .img_sobremi1 {
+        display: none;
+    }
+
+    .main-sobremi {
+        text-align: center;
+    }
+}
+
+@media (max-width: 990px) { 
+    .img_sobremi1 {
+        display: none;
+    }
+}
