@@ -13,7 +13,9 @@
         width: 65%;
         height: auto;
         color: #aaaaaa;
-        text-align: justify;
+    }
+    .p-main {
+        line-height: 2;
     }
 }
 
@@ -25,10 +27,3 @@
     }    
 }
 
-/* INDEX - RESPONSIVE */
-
-@media (max-width: 576px) {
-    footer {
-        height: auto;
-    }
-}

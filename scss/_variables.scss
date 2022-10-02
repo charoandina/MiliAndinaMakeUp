@@ -1,0 +1,48 @@
+/* VARIABLES */
+
+/* MIXIN */
+
+@mixin sizes ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.img_sobremi1 {
+    @include sizes (25em, 30em)
+}
+
+.img_sobremi2 {
+    @include sizes (27em, 30em)
+}
+
+/* EXTEND */
+
+.boton_maquillate {
+    @extend .form__boton;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 1.5em;
+    margin-top: 1rem;
+}
+
+/* MAPS */
+
+$fondo: (
+    navegador: #303030,
+    cuerpo: #393939,
+    pie: #2b2b2b
+);
+
+@each $col, $fondo in $fondo {
+    .backcolor--#{$col} {
+        background-color: $fondo;
+    }
+}
+
+/* MAP GET */
+
+$estilo: (
+    tamaño: 2em,
+    color: #f9f9f9,
+    margin: 1em
+);

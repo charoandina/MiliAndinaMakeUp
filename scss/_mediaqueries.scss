@@ -1,0 +1,127 @@
+/* MEDIA QUERIES */
+
+/* INDEX - RESPONSIVE */
+
+@media (max-width: 576px) {
+    footer {
+        height: auto;
+    }
+
+    .main1__h1 {
+        font-size: 1em;
+    }
+
+    .main_index {
+        margin: auto;
+        text-align: justify;
+    }
+}
+
+/* CURSOS - RESPONSIVE */
+
+@media (max-width: 576px) {
+    .titulo_cursos {
+        font-size: 1.8em;
+    }
+}
+
+/* MAQUILLATE CONMIGO - RESPONSIVE */
+
+@media (max-width: 576px) { 
+    .maquillate_img {
+        display:none;
+    }
+
+    .boton_maquillate {
+        margin: 0.7rem;
+    }
+}
+
+@media (max-width: 990px) { 
+    .maquillate_img {
+        display: none;
+    }
+
+    .boton_maquillate {
+        width: 15rem;
+        height: 3rem;
+        margin-top: 2.5rem;
+    }
+    
+}
+
+/* SOBRE MI - RESPONSIVE */
+
+@media (max-width: 576px) { 
+    .img_sobremi1 {
+        display: none;
+    }
+
+    .img_sobremi2 {
+        display: none;
+    }
+
+    .main-sobremi {
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+    }
+
+    .main-sobremi2 {
+        margin-right: 1em;
+    }
+
+    .h2_sobremi {
+        text-align: start;
+    }
+}
+
+@media (max-width: 990px) { 
+    .img_sobremi1 {
+        display: none;
+    }
+
+    .img_sobremi2 {
+        display: none;
+    }
+}
+
+/* CONTACTO - RESPONSIVE */
+
+@media (max-width: 576px) { 
+    .form__label {
+        text-align: center;
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .form__input {
+        width: 20rem;
+        height: 3rem;
+        font-size: 1rem;
+        padding: 0.3rem;
+    }
+
+    .form__textarea{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .contenedor__form {
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) { 
+    .form__textarea{
+        width: 40rem;
+    }
+}
+
+@media (max-width: 990px) { 
+    .form__textarea{
+        width: 20rem;
+    }
+}
+
+
+

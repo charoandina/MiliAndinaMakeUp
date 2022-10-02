@@ -38,7 +38,6 @@
         border-radius: 1.5em;
         font-family: 'Quicksand', sans-serif;
         font-size: 1em;
-        margin-left: 35%;
         margin-top: 1rem;
         &:hover {
             background-color: #f9f9f9;
@@ -53,32 +52,3 @@
     }
 }
 
-/* MAQUILLATE CONMIGO - RESPONSIVE */
-
-@media (max-width: 576px) { 
-    .maquillate_img {
-        display:none;
-    }
-
-    .boton_maquillate {
-        width: 15rem;
-        height: 3rem;
-        margin-left: 4rem;
-        margin-top: 2.5rem;
-    }
-    
-}
-
-@media (max-width: 990px) { 
-    .maquillate_img {
-        display: none;
-    }
-
-    .boton_maquillate {
-        width: 15rem;
-        height: 3rem;
-        margin-left: 30%;
-        margin-top: 2.5rem;
-    }
-    
-}
