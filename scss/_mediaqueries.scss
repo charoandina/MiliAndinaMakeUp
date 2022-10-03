@@ -15,6 +15,13 @@
         margin: auto;
         text-align: justify;
     }
+
+    .p-main {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin-left: 0!important;
+    }
 }
 
 /* CURSOS - RESPONSIVE */
@@ -84,44 +91,5 @@
         display: none;
     }
 }
-
-/* CONTACTO - RESPONSIVE */
-
-@media (max-width: 576px) { 
-    .form__label {
-        text-align: center;
-        font-size: 0.5rem;
-        margin-top: 0.5rem;
-    }
-    
-    .form__input {
-        width: 20rem;
-        height: 3rem;
-        font-size: 1rem;
-        padding: 0.3rem;
-    }
-
-    .form__textarea{
-        width: 5rem;
-        height: 5rem;
-    }
-
-    .contenedor__form {
-        align-items: center;
-    }
-}
-
-@media (max-width: 768px) { 
-    .form__textarea{
-        width: 40rem;
-    }
-}
-
-@media (max-width: 990px) { 
-    .form__textarea{
-        width: 20rem;
-    }
-}
-
 
 

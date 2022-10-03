@@ -127,7 +127,8 @@ footer {
   color: #aaaaaa; }
 
 .main_index .p-main {
-  line-height: 2; }
+  line-height: 2;
+  text-align: justify; }
 
 .carousel_index .img-car {
   width: 100%;
@@ -168,7 +169,8 @@ footer {
 
 /* SOBRE MI */
 .mainc-sobremi {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
   .mainc-sobremi .main-sobremi {
     width: 53rem;
     height: auto;
@@ -229,39 +231,25 @@ footer {
   color: #f9f9f9; }
 
 /* CONTACTO */
-.contenedor__form {
-  margin-bottom: 3rem;
-  width: 100%;
-  height: auto; }
-  .contenedor__form .form__label {
-    text-align: center;
-    font-size: 1.5rem;
+.contenedor--form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+  margin-right: 2em;
+  /* ESTO GENERA QUE SE HAGA SCROLL HORIZONTAL, VER EL SELECTOR DE "MOTIVO DE CONSULTA" */ }
+  .contenedor--form .titulo-form {
+    font-size: 1.3rem;
     margin-top: 0.5rem; }
-  .contenedor__form .form__input {
-    display: block;
+  .contenedor--form .input-form {
     border: #303030 0.03rem solid;
-    width: 30rem;
-    height: 3rem;
     border-radius: 1rem;
-    margin-left: 0rem;
-    align-items: left;
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
     background-color: #d8d8d8;
     padding: 0.3rem; }
-    .contenedor__form .form__input:focus {
+    .contenedor--form .input-form:focus {
       border: 0.2rem solid #303030; }
-  .contenedor__form .form__textarea {
-    width: 30rem;
-    height: 10rem;
-    border-radius: 1rem;
-    border: #303030 0.03rem solid;
-    background-color: #d8d8d8;
-    padding: 0.5rem;
-    font-family: 'Quicksand', sans-serif;
-    resize: none;
-    font-size: 1rem; }
-  .contenedor__form .form__boton, .contenedor__form .boton_maquillate {
+  .contenedor--form .form--boton, .contenedor--form .boton_maquillate {
     background-color: #303030;
     border: none;
     color: white;
@@ -272,7 +260,7 @@ footer {
     border-radius: 1rem;
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem; }
-    .contenedor__form .form__boton:hover, .contenedor__form .boton_maquillate:hover {
+    .contenedor--form .form--boton:hover, .contenedor--form .boton_maquillate:hover {
       background-color: white;
       color: #303030;
       transition: 1s; }
@@ -314,7 +302,12 @@ footer {
     font-size: 1em; }
   .main_index {
     margin: auto;
-    text-align: justify; } }
+    text-align: justify; }
+  .p-main {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-left: 0 !important; } }
 
 /* CURSOS - RESPONSIVE */
 @media (max-width: 576px) {
@@ -355,28 +348,3 @@ footer {
     display: none; }
   .img_sobremi2 {
     display: none; } }
-
-/* CONTACTO - RESPONSIVE */
-@media (max-width: 576px) {
-  .form__label {
-    text-align: center;
-    font-size: 0.5rem;
-    margin-top: 0.5rem; }
-  .form__input {
-    width: 20rem;
-    height: 3rem;
-    font-size: 1rem;
-    padding: 0.3rem; }
-  .form__textarea {
-    width: 5rem;
-    height: 5rem; }
-  .contenedor__form {
-    align-items: center; } }
-
-@media (max-width: 768px) {
-  .form__textarea {
-    width: 40rem; } }
-
-@media (max-width: 990px) {
-  .form__textarea {
-    width: 20rem; } }
