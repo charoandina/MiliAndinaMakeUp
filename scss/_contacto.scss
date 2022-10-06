@@ -3,13 +3,15 @@
 .contenedor--form{
     display: flex;
     flex-direction: column;
-    margin-left: 2em;
-    margin-right: 2em;  /* ESTO GENERA QUE SE HAGA SCROLL HORIZONTAL, VER EL SELECTOR DE "MOTIVO DE CONSULTA" */
+    justify-content: center;
+    align-items: center;
     .titulo-form {
         font-size: 1.3rem;
         margin-top: 0.5rem;
+        justify-content: center;
     }
     .input-form {
+        width: 15rem;
         border: #303030 0.03rem solid;
         border-radius: 1rem;
         font-family: 'Quicksand', sans-serif;
