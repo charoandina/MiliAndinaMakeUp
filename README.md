@@ -1,4 +1,4 @@
-![](/img/logo.png)
+![](/img/logo.svg)
 # Mili Andina Makeup
 
 El proyecto comienza con la necesidad de Milagros García de Andina de generar una página web para poder ofrecer sus servicios y darse a conocer a un nuevo público.
