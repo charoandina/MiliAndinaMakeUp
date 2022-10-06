@@ -2,12 +2,12 @@
 /* VARIABLES */
 /* MIXIN */
 .img_sobremi1 {
-  width: 25em;
-  height: 30em; }
+  width: 25rem;
+  height: 30rem; }
 
 .img_sobremi2 {
-  width: 27em;
-  height: 30em; }
+  width: 27rem;
+  height: 30rem; }
 
 /* EXTEND */
 .boton_maquillate {
@@ -35,7 +35,7 @@ nav {
   background-color: #303030; }
   nav .logo {
     width: 15rem;
-    height: 7em; }
+    height: 7rem; }
   nav .ul-li-a::after {
     content: "";
     display: block;
@@ -55,31 +55,31 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #f9f9f9;
   font-weight: 300;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1em; }
+  margin: 1rem; }
 
 .barra {
   display: block;
-  border: #303030 0.2em solid;
+  border: #303030 0.2rem solid;
   width: 80%;
-  height: 0em;
+  height: 0rem;
   margin-left: auto;
   margin-right: auto;
   background-color: #303030;
-  margin-bottom: 2em;
-  margin-top: 2em; }
+  margin-bottom: 2rem;
+  margin-top: 2rem; }
 
 footer {
   background-color: #2b2b2b;
   height: 5rem; }
   footer .icono_ig {
-    margin-top: 1em;
-    margin-right: 1em;
-    width: 2em;
-    height: 2em;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
     transition: margin 0.5s ease-out;
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
@@ -87,10 +87,10 @@ footer {
     footer .icono_ig:hover {
       margin-top: 2px; }
   footer .icono_yt {
-    margin-top: 1em;
-    margin-right: 1em;
-    width: 2.5em;
-    height: 1.9em;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 2.5rem;
+    height: 1.9rem;
     transition: margin 0.5s ease-out;
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
@@ -98,10 +98,10 @@ footer {
     footer .icono_yt:hover {
       margin-top: 2px; }
   footer .icono_wa {
-    margin-top: 1em;
-    margin-right: 1em;
-    width: 2em;
-    height: 2em;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
     transition: margin 0.5s ease-out;
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
@@ -115,11 +115,11 @@ footer {
 /* INDEX */
 .main_index .main1__h1 {
   color: #f9f9f9;
-  font-size: 2em;
+  font-size: 2rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   line-height: 1.5;
-  margin-top: 1em; }
+  margin-top: 1rem; }
 
 .main_index .texto-main {
   width: 65%;
@@ -155,19 +155,19 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   text-align: center;
-  font-size: 1.1em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em; }
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
 
 .main_cursos .info__cursos {
   text-align: center;
-  font-size: 1em;
+  font-size: 1rem;
   color: #aaaaaa; }
 
 .main_cursos .infoextra__cursos {
   text-align: center;
-  margin-top: 0.5em;
-  margin-bottom: 2em;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
   color: #aaaaaa; }
 
 /* SOBRE MI */
@@ -179,15 +179,15 @@ footer {
     height: auto;
     text-align: justify;
     color: #aaaaaa;
-    margin-left: 1em;
-    margin-right: 1em; }
+    margin-left: 1rem;
+    margin-right: 1rem; }
   .mainc-sobremi .h2_sobremi {
     color: #f9f9f9;
-    font-size: 2em;
+    font-size: 2rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     line-height: 1.5;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.5rem; }
 
 /* MAQUILLATE CONMIGO */
 .main_maquillate .maquillateinfo {
@@ -196,22 +196,22 @@ footer {
 
 .main_maquillate .maquillate_h2 {
   color: #f9f9f9;
-  font-size: 2em;
+  font-size: 2rem;
   font-family: 'Raleway', sans-serif;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   font-weight: 300;
   line-height: 1.5; }
 
 .main_maquillate .info_maquillate {
   line-height: 2;
-  font-size: 1em;
+  font-size: 1rem;
   color: #aaaaaa; }
 
 .main_maquillate .ul_maquillate {
   list-style-type: disc;
   line-height: 2;
-  padding-left: 1.5em;
-  margin: 1em 0 1em 0; }
+  padding-left: 1.5rem;
+  margin: 1rem 0 1rem 0; }
 
 .main_maquillate .boton_maquillate {
   width: 15rem;
@@ -220,9 +220,9 @@ footer {
   border: none;
   color: white;
   cursor: pointer;
-  border-radius: 1.5em;
+  border-radius: 1.5rem;
   font-family: 'Quicksand', sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   margin-top: 1rem; }
   .main_maquillate .boton_maquillate:hover {
     background-color: #f9f9f9;
@@ -272,12 +272,12 @@ footer {
 /* VARIABLES */
 /* MIXIN */
 .img_sobremi1 {
-  width: 25em;
-  height: 30em; }
+  width: 25rem;
+  height: 30rem; }
 
 .img_sobremi2 {
-  width: 27em;
-  height: 30em; }
+  width: 27rem;
+  height: 30rem; }
 
 /* EXTEND */
 .boton_maquillate {
@@ -303,7 +303,7 @@ footer {
   footer {
     height: auto; }
   .main1__h1 {
-    font-size: 1em; }
+    font-size: 1rem; }
   .main_index {
     margin: auto;
     text-align: justify; }
@@ -316,7 +316,7 @@ footer {
 /* CURSOS - RESPONSIVE */
 @media (max-width: 576px) {
   .titulo_cursos {
-    font-size: 1.8em; } }
+    font-size: 1.8rem; } }
 
 /* MAQUILLATE CONMIGO - RESPONSIVE */
 @media (max-width: 576px) {
@@ -343,7 +343,7 @@ footer {
     margin-left: 0.1rem;
     margin-right: 0.1rem; }
   .main-sobremi2 {
-    margin-right: 1em; }
+    margin-right: 1rem; }
   .h2_sobremi {
     text-align: start; } }
 

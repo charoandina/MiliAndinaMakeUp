@@ -10,7 +10,7 @@ nav {
     background-color: #303030;
     .logo {
         width: 15rem;
-        height: 7em;
+        height: 7rem;
     }
     .ul-li-a{
         &::after {
@@ -38,7 +38,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: map-get($estilo, color);
     font-weight: 300;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -47,24 +47,24 @@ body {
 
 .barra {
     display: block;
-    border: #303030 0.2em solid;
+    border: #303030 0.2rem solid;
     width: 80%;
-    height: 0em;
+    height: 0rem;
     margin-left: auto;
     margin-right: auto;
     background-color: #303030;
-    margin-bottom: 2em;
-    margin-top: 2em;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 footer {
     background-color: #2b2b2b;
     height: 5rem;
     .icono_ig {
-        margin-top: 1em;
-        margin-right: 1em;
-        width: 2em;
-        height: 2em;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        width: 2rem;
+        height: 2rem;
         transition: margin 0.5s ease-out;
         -webkit-transition: margin 0.5s ease-out;
         -moz-transition: margin 0.5s ease-out;
@@ -74,10 +74,10 @@ footer {
         }
     }
     .icono_yt {
-        margin-top: 1em;
-        margin-right: 1em;
-        width: 2.5em;
-        height: 1.9em;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        width: 2.5rem;
+        height: 1.9rem;
         transition: margin 0.5s ease-out;
         -webkit-transition: margin 0.5s ease-out;
         -moz-transition: margin 0.5s ease-out;
@@ -87,10 +87,10 @@ footer {
         }    
     }
     .icono_wa {
-        margin-top: 1em;
-        margin-right: 1em;
-        width: 2em;
-        height: 2em;    
+        margin-top: 1rem;
+        margin-right: 1rem;
+        width: 2rem;
+        height: 2rem;    
         transition: margin 0.5s ease-out;
         -webkit-transition: margin 0.5s ease-out;
         -moz-transition: margin 0.5s ease-out;
