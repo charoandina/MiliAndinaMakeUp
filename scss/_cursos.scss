@@ -4,6 +4,7 @@
     .img_curso {
         height: 23rem;
         width: 18rem;
+        cursor: pointer;
         &:hover {
             transform: scale(1.05);
             transition: 3s; 
