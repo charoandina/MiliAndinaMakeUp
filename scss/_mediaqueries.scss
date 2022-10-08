@@ -3,6 +3,10 @@
 /* INDEX - RESPONSIVE */
 
 @media (max-width: 576px) {
+    .titulogral {
+        text-align: center;
+    }
+
     footer {
         height: auto;
     }
@@ -68,24 +72,21 @@
         display: none;
     }
 
-    .main-sobremi {
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
+    .h2_sobremi {
+        text-align: start;
+        margin-top: -5rem;
+    }
+
+    .main-sobremi1 {
+        padding-left: none;
     }
 
     .main-sobremi2 {
-        margin-right: 1rem;
-    }
-
-    .h2_sobremi {
-        text-align: start;
+        padding-right: none;
     }
 }
 
 @media (max-width: 990px) { 
-    .img_sobremi1 {
-        display: none;
-    }
 
     .img_sobremi2 {
         display: none;
