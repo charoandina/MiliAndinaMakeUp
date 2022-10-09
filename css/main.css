@@ -14,7 +14,8 @@
   width: 15rem;
   height: 3rem;
   border-radius: 1.5em;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  padding: 0; }
 
 /* MAPS */
 .backcolor--navegador {
@@ -245,40 +246,44 @@ span {
   color: #f9f9f9; }
 
 /* CONTACTO */
-.contenedor--form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .contenedor--form .titulo-form {
-    font-size: 1.3rem;
-    margin-top: 0.5rem;
-    justify-content: center; }
-  .contenedor--form .input-form {
-    width: 30rem;
-    border: #303030 0.03rem solid;
-    border-radius: 1rem;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1rem;
-    background-color: #d8d8d8;
-    padding: 0.3rem; }
-    .contenedor--form .input-form:focus {
-      border: 0.2rem solid #303030; }
-  .contenedor--form .form--boton, .contenedor--form .boton_maquillate {
-    background-color: #303030;
-    border: none;
-    color: white;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    margin: 1rem 0.125rem;
-    cursor: pointer;
-    border-radius: 1rem;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1rem; }
-    .contenedor--form .form--boton:hover, .contenedor--form .boton_maquillate:hover {
-      background-color: white;
-      color: #303030;
-      transition: 1s; }
+.input-form {
+  width: 30rem;
+  height: 3rem;
+  border: #303030 0.03rem solid;
+  border-radius: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  background-color: #d8d8d8;
+  padding: 0.3rem; }
+  .input-form:focus {
+    border: 0.2rem solid #303030; }
+
+.form--boton, .boton_maquillate {
+  background-color: #303030;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem; }
+  .form--boton:hover, .boton_maquillate:hover {
+    background-color: white;
+    color: #303030;
+    transition: 1s; }
+
+.textarea-form {
+  width: 30rem;
+  height: 13rem;
+  border: #303030 0.03rem solid;
+  border-radius: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  background-color: #d8d8d8;
+  padding: 0.3rem; }
+  .textarea-form:focus {
+    border: 0.2rem solid #303030; }
 
 /* VARIABLES */
 /* MIXIN */
@@ -295,7 +300,8 @@ span {
   width: 15rem;
   height: 3rem;
   border-radius: 1.5em;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  padding: 0; }
 
 /* MAPS */
 .backcolor--navegador {
@@ -355,6 +361,8 @@ span {
   .h2_sobremi {
     text-align: start;
     margin-top: -5rem; }
+  .h2_sobremi1 {
+    margin-top: 0.5rem; }
   .main-sobremi1 {
     padding-left: none; }
   .main-sobremi2 {
@@ -363,3 +371,5 @@ span {
 @media (max-width: 990px) {
   .img_sobremi2 {
     display: none; } }
+
+/* CONTACTO - RESPONSIVE */
