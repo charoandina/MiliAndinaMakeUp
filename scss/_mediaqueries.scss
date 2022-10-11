@@ -3,6 +3,11 @@
 /* INDEX - RESPONSIVE */
 
 @media (max-width: 576px) {
+    nav .logo {
+        width: 12rem;
+        height: 5rem;
+    }
+
     .titulogral {
         text-align: center;
     }
@@ -98,3 +103,18 @@
 }
 
 /* CONTACTO - RESPONSIVE */
+
+@media (max-width: 500px) {
+    .input-form {
+        width: 100%;
+        justify-self: center;
+    }
+
+    .textarea-form {
+        width: 100%;
+    }
+
+    .form--boton {
+        justify-content: space-around;
+    }
+}
